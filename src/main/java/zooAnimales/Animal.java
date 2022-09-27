@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import gestion.Zona;
 
 public class Animal {
-	private static Integer totalAnimales;
+	private static Integer totalAnimales = 0;
 	private String nombre;
 	private Integer edad;
 	private String habitat;
@@ -84,7 +84,7 @@ public class Animal {
 		Animal.totalAnimales++;
 	}
 
-	public static void setTotalAnimales(int totalAnimales) {
+	public static void setTotalAnimales(Integer totalAnimales) {
 		Animal.totalAnimales = totalAnimales;
 	}
 
