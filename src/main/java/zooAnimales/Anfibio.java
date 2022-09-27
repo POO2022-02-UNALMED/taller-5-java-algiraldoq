@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Anfibio extends Animal {
 	private static ArrayList<Anfibio> listado = new ArrayList<Anfibio>();
-	public static Integer ranas = 0;
+	public static Integer ranas;
 	public static Integer salamandras = 0;
 	private String colorPiel;
 	private Boolean venenoso;
