@@ -21,7 +21,7 @@ public class Anfibio extends Animal {
 	}
 
 	public static Integer cantidadAnfibios() {
-		return Anfibio.listado.size();
+		return ranas+salamandras;
 	}
 
 	public String movimiento() {
