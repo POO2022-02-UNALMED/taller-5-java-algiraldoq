@@ -32,8 +32,8 @@ public class Animal {
 		int nReptiles = Reptil.cantidadReptiles();
 		int nPeces = Pez.cantidadPeces();
 		int nAnfibios = Anfibio.cantidadAnfibios();
-		return "Mamiferos: " + nMamiferos + "\nAves: " + nAves + "\nReptiles: " + nReptiles + "\nPeces: " + nPeces
-				+ "\nAnfibios: " + nAnfibios;
+		return "Mamiferos: " + nMamiferos + "\n" + "Aves: " + nAves + "\n" + "Reptiles: " + nReptiles + "\n" + "Peces: " + nPeces
+				+ "\n" + "Anfibios: " + nAnfibios;
 	}
 
 	public Integer getEdad() {

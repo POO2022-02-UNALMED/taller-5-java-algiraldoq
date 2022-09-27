@@ -19,11 +19,10 @@ public class Zona {
 
 	public void agregarAnimales(Animal animal) {
 		animales.add(animal);
-		animal.setZona(this);
 	}
 
 	public Integer cantidadAnimales() {
-		return this.animales.size();
+		return animales.size();
 	}
 
 	public String getNombre() {
@@ -44,9 +43,5 @@ public class Zona {
 
 	public ArrayList<Animal> getAnimales() {
 		return animales;
-	}
-
-	public void setAnimales(ArrayList<Animal> animales) {
-		this.animales = animales;
 	}
 }
