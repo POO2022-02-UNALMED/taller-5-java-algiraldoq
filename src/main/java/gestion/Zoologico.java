@@ -17,10 +17,15 @@ public class Zoologico {
 
 	public void agregarZonas(Zona zona) {
 		zonas.add(zona);
+		zona.setZoo(this);
 	}
 
 	public Integer cantidadTotalAnimales() {
-		return zonas.get(0).cantidadAnimales() + zonas.get(1).cantidadAnimales();
+		int totalAnimales = 0;
+		for(Zona zona: zonas) {
+			totalAnimales += zona.cantidadAnimales();
+		}
+		return totalAnimales;
 	}
 
 	public String getNombre() {

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Ave extends Animal {
 	private static ArrayList<Ave> listado = new ArrayList<Ave>();
-	public static Integer halcones;
-	public static Integer aguilas;
+	public static Integer halcones = 0;
+	public static Integer aguilas = 0;
 	private String colorPlumas;
 
 	public Ave() {
