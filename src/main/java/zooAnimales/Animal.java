@@ -80,6 +80,10 @@ public class Animal {
 		zona.add(nZona);
 	}
 
+	public static void setTotalAnimales() {
+		Animal.totalAnimales++;
+	}
+
 	public static void setTotalAnimales(int totalAnimales) {
 		Animal.totalAnimales = totalAnimales;
 	}
@@ -88,9 +92,6 @@ public class Animal {
 		return totalAnimales;
 	}
 
-	public static void setTotalAnimales() {
-		Animal.totalAnimales++;
-	}
 
 	public String toString() {
 		if (zona.size() == 1) {
