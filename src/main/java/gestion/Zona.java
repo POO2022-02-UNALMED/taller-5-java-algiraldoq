@@ -23,7 +23,7 @@ public class Zona {
 	}
 
 	public Integer cantidadAnimales() {
-		return animales.size();
+		return this.animales.size();
 	}
 
 	public String getNombre() {
